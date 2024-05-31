@@ -1,0 +1,26 @@
+header, body, footer{
+    background-color: bisque;
+}
+
+section #boven {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+}
+
+div #menu {
+    background-color: aqua;
+    height: 50%;
+    width: 50%;
+}
+
+section #boven img{
+    width: 50%;
+}
+
+#onder {
+    display: flex;
+    gap: 5em;
+}
+
+
