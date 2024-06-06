@@ -80,7 +80,7 @@ function speelGeluid(){
 }
 
 function serveOrder(){ //Deze functie zorgt ervoor dat het plaatje juist veranderd
-    speelGeluid() //Hier wordt de functie aangeroepen
+    speelGeluid() //Hier wordt de functie aangeroepen, staat hier anders heb je twee EventListeners aan 1 knop gekoppeld
     if (beef == 0 && snack == 2 && drink == 1){
         plaatjeCustomer.src = 'img/customer_happy.png'
     } else {
